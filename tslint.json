@@ -1,0 +1,12 @@
+{
+  "extends": ["tslint-config-prettier"],
+  "rules": {
+    "no-console": true,
+    "object-literal-sort-keys": false,
+    "member-access": false,
+    "ordered-imports": false
+  },
+  "linterOptions": {
+    "exclude": ["**/*.json", "node_modules"]
+  }
+}

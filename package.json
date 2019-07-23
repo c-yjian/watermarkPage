@@ -1,0 +1,41 @@
+{
+  "name": "watermark-webpage",
+  "version": "1.0.2",
+  "main": "dist/watermark-page.js",
+  "scripts": {
+    "start": "tsc -w",
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "tslint -p tsconfig.json",
+    "test": "jest --config jestconfig.json"
+  },
+  "author": "yangjian",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^1.18.2",
+    "tslint": "^5.18.0",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.5.3"
+  },
+  "files": ["package.json", "dist", ""],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yangJianWeb/watermarkPage"
+  },
+  "keywords": [
+    "watermark",
+    "watermarkPage",
+    "typescript",
+    "watermark web",
+    "watermark page",
+    "watermark webpage",
+    "watermark website",
+    ".d.ts watermark",
+    "typescript watermark",
+    "watermark typescript",
+    "watermark ts",
+    "ts watermark",
+    "declare .d.ts"
+  ],
+  "description": "add watermark in you website or container"
+}
